@@ -254,6 +254,7 @@
 										class="form-control border-0"
 										placeholder="Your Name"
 										style="height: 55px"
+										name="Name"
 									/>
 								</div>
 								<div class="col-12 col-sm-6">
@@ -262,6 +263,7 @@
 										class="form-control border-0"
 										placeholder="Your Email"
 										style="height: 55px"
+										name="Email"
 									/>
 								</div>
 								<div class="col-12 col-sm-6">
@@ -277,6 +279,7 @@
 											data-target="#date"
 											data-toggle="datetimepicker"
 											style="height: 55px"
+											name="Call Back Date"
 										/>
 									</div>
 								</div>
@@ -293,16 +296,16 @@
 											data-target="#time"
 											data-toggle="datetimepicker"
 											style="height: 55px"
+											name="Call Back Time"
 										/>
 									</div>
 								</div>
 								<div class="col-12">
 									<textarea
 										class="form-control border-0"
-										rows="4"
+										rows="5"
 										placeholder="Message"
 										name="Message"
-										required
 									></textarea>
 								</div>
 								<div class="col-12">
@@ -366,7 +369,8 @@
 						<i class="fas fa-phone me-2"></i> +1 (808) 209-2177
 					</div>
 					<div>
-						<i class="fas fa-envelope me-2"></i> rose@maluhialove.com
+						<i class="fas fa-envelope me-2"></i>
+						rose@maluhialove.com
 					</div>
 				</div>
 
@@ -420,7 +424,7 @@
 
 		<script>
 			const scriptURL =
-				"https://script.google.com/macros/s/AKfycbyw0PT-CO-HAfaa2uzXYo6N9tPt70Rbam-snxde1mtffSrF-_zwCXPqmci63ILxGaZO/exec";
+				"https://script.google.com/macros/s/AKfycbxvGfJokDID5NVS6L6MeFl7d4DMEYj8R7XOTN3hU1ZP9YgAY_xbzy17tDwTWiYtFpFBIA/exec";
 			const form = document.forms["submit-to-google-sheet"];
 			const msg = document.getElementById("msg");
 
