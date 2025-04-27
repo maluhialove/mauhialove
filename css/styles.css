@@ -563,14 +563,14 @@
 
 @media (max-width: 767.98px) {
 	.carousel-item {
-		min-height: 50vh; /* More space on mobile */
+		min-height: 60vh; /* More space on mobile */
 	}
 
 	.carousel-item img {
 		width: auto;
 		object-fit: cover; /* Fill the space proportionally */
 		object-position: center; /* Center the crop */
-		min-height: 50vh;
+		min-height: 60vh;
 	}
 
 	.carousel-caption {
